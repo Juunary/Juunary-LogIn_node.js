@@ -1,0 +1,59 @@
+/* 버튼 스타일 변경 */
+.btn {
+  background: #ff4500; /* 파이어브릭 배경색 */
+  border: 1px solid #c0c0c0; /* 실버 테두리 */
+  color: #ffffff; /* 흰색 텍스트 */
+  font-family: Arial, sans-serif; /* 글꼴 지정 (예: Arial) */
+  padding: 10px 20px; /* 버튼 여백 조정 */
+  border-radius: 4px; /* 둥근 테두리 */
+}
+
+/* 프로필 섹션 디자인 변경 */
+.profile-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 세로 중앙 정렬을 위해 추가 */
+  margin: 10px auto;
+  background: linear-gradient(to bottom, #ffffff, #f08080); /* 그라데이션 배경 */
+}
+
+.profile {
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #c0c0c0; /* 실버 테두리 */
+  background: #f08080; /* 라이트코랄 배경색 */
+}
+
+/* 타임라인 섹션 디자인 변경 */
+.timeline {
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  vertical-align: top;
+  width: 100%; /* 화면 폭에 맞게 */
+  background: linear-gradient(to bottom, #ffffff, #f08080); /* 그라데이션 배경 */
+}
+
+/* 태그 검색 디자인 변경 (가운데로 이동) */
+.tag-search {
+  text-align: center;
+  margin-top: 10px;
+  background: linear-gradient(to bottom, #ffffff, #f08080); /* 그라데이션 배경 */
+}
+
+@media screen and (min-width: 800px) {
+  .timeline {
+    width: 500px; /* 데스크톱 화면에 맞게 조정 */
+  }
+}
+
+/* 푸터 디자인 변경 */
+footer {
+  text-align: center;
+  margin-top: 10px; /* 수정 */
+  background: linear-gradient(to bottom, #ffffff, #f08080); /* 그라데이션 배경 */
+}
+
+
