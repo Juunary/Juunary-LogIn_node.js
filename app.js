@@ -9,7 +9,7 @@ const dotenv = require('dotenv');
 dotenv.config(); //process.env 저장
 const pageRouter= require('./routes/page.js')
 const app = express();
-app.set('port',process.env.PORT||7000);
+app.set('port',process.env.PORT||8000);
 app.set('view engine', 'html');
 nunjucks.configure('views', {
     express: app,
